@@ -2,7 +2,7 @@
 
 - Use the below command to start the nillion verifier
 ```bash
-wget -q https://raw.githubusercontent.com/dxzenith/nillion/main/nillion.sh && chmod +x nillion.sh && ./nillion.sh
+wget -q https://raw.githubusercontent.com/p4pirate/nillion-node/main/nillion.sh && chmod +x nillion.sh && ./nillion.sh
 ```
 - You will see `Registered : true` after 20 mins
 - And your node will start sending secret to Nillion after 50 mins
