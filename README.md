@@ -5,11 +5,16 @@
 wget -q https://raw.githubusercontent.com/p4pirate/nillion-node/main/nillion.sh && chmod +x nillion.sh && ./nillion.sh
 ```
 - You will see `Registered : true` after 20 mins
+- if fails to register, copy & run below code then run above code again
+```bash
+sudo apt update && sudo apt install -y bc
+```
+  
 - And your node will start sending secret to Nillion after 50 mins
 
 <h2 align=center> Frequently Asked Questions </h2>
 
-- **How to check whether it true or false**
+- **Check whether TRUE OR FALSE status **
 
 Use this command to check the docker container ID of nillion
 ```bash
@@ -21,7 +26,7 @@ Now replace the `CONTAINER_ID` in the below command and then execute the below c
 docker logs CONTAINER_ID | grep "Registered"
 ```
 
-- **How to check : how many secrets has been sent to nillion?**
+- **Check how many secrets has been sent to nillion?**
 
 Use this command to check the docker container ID of nillion
 ```bash
