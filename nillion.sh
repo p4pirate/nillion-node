@@ -1,12 +1,12 @@
 #!/bin/bash
 
 echo ""
-echo "Follow: https://x.com/ZunXBT"
-read -p "Have you followed @ZunXBT on X? (y/Y to proceed): " FOLLOWED
+echo "Join on Telegram: @crypto_airdrop_pirates "
+read -p "Have you followed @airdrop_pirates on X? (y/Y to proceed): " FOLLOWED
 
 if [[ ! "$FOLLOWED" =~ ^[yY]$ ]]; then
     echo ""
-    echo "Please follow @ZunXBT on X before proceeding."
+    echo "Please follow @airdrop_pirates on X before proceeding."
     exit 1
 fi
 
